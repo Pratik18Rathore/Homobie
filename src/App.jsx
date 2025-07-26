@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Header from "../components/Header";
-import InputForm from "../components/InputForm";
-import Charts from "../components/Charts";
-import ResultCards from "../components/ResultCards";
+import Header from "./components/Header";
+import InputForm from "./components/InputForm";
+import Charts from "./components/Charts";
+import ResultCards from "./components/ResultCards";
 
 export default function App() {
   const [input, setInput] = useState({
